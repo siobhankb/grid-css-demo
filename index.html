@@ -6,12 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Grid Demo</title>
     <link rel="stylesheet" href="css/main.css">
+      <style>
+      .grid-line{
+          border: 1px solid black; 
+          border-left: 5px solid blue;
+          border-right: 5px solid purple;
+          height: 999px;
+      }
+  </style>
 </head>
 <body>
-<div class="container">
-  <div class="top_nav"></div>
-  <div class="left_nav"></div>
-  <div class="logo"></div>
+    <div class="container">
+        <div class="top_nav">
+            <div class="logo">
+                <img src="images/T2T logo -simple.png" alt="T2T logo">
+            </div>
+            <a href="http://google.com">Home</a>
+            <a href="http://google.com">About</a>
+            <a href="http://google.com">Guests</a>
+            <a href="http://google.com">Resources</a>
+        <   a href="http://google.com">Fun</a>
+        </div>
+  <div class="left_nav">
+      <h3>download episodes</h3>
+      <ul>
+          <li>most recent</li>
+          <details>
+              <summary>May
+                  <ul>
+                      <li>May 8</li>
+                      <li>May 15</li>
+                      <li>May 21</li>
+                  </ul>
+              </summary>
+          </details>
+      </ul>
+  </div>
   <div class="right_bio"></div>
   <div class="title"></div>
   <div class="main_content"></div>
